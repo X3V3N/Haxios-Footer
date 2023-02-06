@@ -1,0 +1,144 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+.mid {
+  height: 500px;
+  width: 10000px;
+  background: rgb(191,221,133);
+  background: -webkit-linear-gradient(rgba(191,221,133,1) 11%, rgba(180,240,236,1) 88%);
+  background: -o-linear-gradient(rgba(191,221,133,1) 11%, rgba(180,240,236,1) 88%);
+  background: linear-gradient(rgba(191,221,133,1) 11%, rgba(180,240,236,1) 88%);
+}
+.bg {
+  position: relative;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.bg-img {
+  width: 100%;
+  height: 100vh;
+}
+@media (min-aspect-ratio: 16/9) {
+  .bg-img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .bg-img {
+    width: auto;
+    height: 100%;
+  }
+}
+.black-scr {
+  position: absolute;
+  width: 100%;
+  height: 75%;
+  background-color: #0009;
+  overflow-y: hidden;
+  bottom: 0.1px;
+}
+.txt {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+h3 {
+  font-size: 4rem;
+}
+.UL {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding-left: 20px;
+}
+.UR {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding-right: 20px;
+}
+.LL {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding-left: 20px;
+}
+.LR {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding-right: 20px;
+}
+.gap {
+  height: 130px;
+}
+.sections {
+  margin: 20px;
+  text-align: left;
+  padding: 100px;
+}
+.icon {
+  margin-top: 5px;
+  width: 40px;
+  padding-right: 8px;
+}
+.fu {
+  width: 70px;
+  padding: 30px;
+}
+.fu-div {
+  text-align: center;
+}
+.con {
+  font-size: 50px;
+}
+.add {
+  font-size: 30px;
+}
+.sc {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.CU {
+  padding-right: 300px;
+}
+@media(max-width: 1024px) {
+  .CU {
+    padding-right: 0px;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  .LR {
+    padding-right: 0px;
+  }
+  .icon {
+    width: 20px;
+  }
+  .con {
+    font-size: 15px;
+  }
+  .gap {
+    height: 70px;
+  }
+  .sections {
+    padding: 0px;
+  }
+  .fu {
+    width: 30px;
+    padding: 5px;
+  }
+  .add {
+    padding-top: 5px;
+    font-size: 10px;
+  }
+  .sc {
+    font-size: 13px;
+    margin-bottom: 2px;
+  }
+}
