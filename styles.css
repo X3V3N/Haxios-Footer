@@ -38,7 +38,7 @@
 .black-scr {
   position: absolute;
   width: 100%;
-  height: 75%;
+  height: 50%;
   background-color: #0009;
   overflow-y: hidden;
   bottom: 0.1px;
@@ -48,7 +48,7 @@
   color: white;
 }
 h3 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .UL {
   position: absolute;
@@ -71,11 +71,11 @@ h3 {
 .LR {
   position: absolute;
   bottom: 10px;
-  right: 10px;
+  right: 35px;
   padding-right: 20px;
 }
 .gap {
-  height: 130px;
+  height: 100px;
 }
 .sections {
   margin: 20px;
@@ -84,41 +84,45 @@ h3 {
 }
 .icon {
   margin-top: 5px;
-  width: 40px;
+  width: 30px;
   padding-right: 8px;
 }
 .fu {
-  width: 70px;
-  padding: 30px;
+  width: 50px;
+  padding: 20px;
 }
 .fu-div {
   text-align: center;
 }
 .con {
-  font-size: 50px;
+  font-size: 30px;
 }
 .add {
-  font-size: 30px;
+  font-size: 25px;
+  padding: 5px;
 }
 .sc {
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 10px;
 }
 .CU {
   padding-right: 300px;
 }
 @media(max-width: 1024px) {
+  .black-scr {
+    height: 75%;
+  }
   .CU {
     padding-right: 0px;
+  }
+  .LR {
+    right: 0px;
   }
   h3 {
     font-size: 1rem;
   }
-  .LR {
-    padding-right: 0px;
-  }
   .icon {
-    width: 20px;
+    width: 17px;
   }
   .con {
     font-size: 15px;
@@ -140,5 +144,10 @@ h3 {
   .sc {
     font-size: 13px;
     margin-bottom: 2px;
+  }
+}
+@media screen and (orientation: landscape) {
+  .black-scr {
+    height: 50%;
   }
 }
